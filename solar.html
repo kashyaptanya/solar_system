@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> solar system</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="solar.css">
+  <!-- <style>
+    img{
+        height: 50px;
+        width: 60px;
+    }
+    #check2{
+        display: none;
+    } 
+  
+   #check1{
+        display: none;
+    }
+
+    #check3{
+      display: none;
+    }
+    #check4{
+      display: none;
+    }
+    #check2{
+        display: none;
+    }
+
+    #check5{
+      display: none;
+    }
+    #check6{
+      display: none;
+    }
+    #check7{
+        display: none;
+    }
+
+    #check8{
+      display: none;
+    }
+    #check9{
+      display: none;
+    }
+    #check10{
+      display: none;
+    }
+    
+
+
+
+   
+  </style> -->
+  
+  
+
+</head>
+
+<body>
+
+  
+    <h1>SOLAR SYSTEM</h1>
+    <br>
+    <br>
+    <div class="row">
+      <input id="input1" placeholder="TYPE....." type="number" > &nbsp &nbsp
+      <span><b> WEIGHT IN KG</b></span> &nbsp &nbsp
+      <select onchange="displaying(this)"> 
+        <option>planets</option>
+        <option value="mer">MERCURY</option>
+        <option value="ven">VENUS</option>
+        <option value="ear">EARTH</option>
+        <option value="mar">MARS</option>
+        <option value="moo">MOON</option>
+         <option value="jup">JUPITER</option> 
+        <option value="nep">NEPTUNE</option>
+         <option value="plu">PLUTO</option>
+        <option value="sat">SATURN</option>
+        <option value="ur">URANUS</option>
+         
+      </select>
+      &nbsp &nbsp
+      <button onclick="Calculate();">Submit</button>
+    </div>
+   
+        <div class="planets" >        
+      <div id = "check1"  class="planet1">
+        <h3>
+          MERCURY
+        </h3>
+        <img src="mercury.png" alt="Mercury">
+        <br><span id="m">Your weight is:</span>
+      </div>
+      <br>
+      <br>
+
+
+      <div id = "check2" class="planet2">
+        <h3>
+          VENUS
+        </h3>
+        <img src="venus.png" alt="Venus">
+        <br><span id="v">Your weight is:</span>
+      </div>
+
+      <div id = "check3" class="planet3">
+        <h3>
+          EARTH
+        </h3>
+        <img src="earth.png" alt="earth">
+        <br><span id="e">Your weight is:</span>
+      </div>
+       <div id = "check4" class="planet4">
+        <h3>
+          JUPITER
+        </h3>
+        <img src="mars.png" alt="mars">
+        <br><span id="ma">Your weight is:</span>
+      </div>
+
+      <div id = "check5" class="planet5">
+        <h3>
+          MOON
+        </h3>
+        <img src="moon.png" alt="moon">
+        <br><span id="mo">Your weight is:</span>
+      </div>
+      <div id = "check6" class="planet6">
+        <h3>
+          JUPITER
+        </h3>
+        <img src="jupiter.png" alt="JUPITER">
+        <br><span id="jup">Your weight is:</span>
+      </div>
+
+      <div id = "check7" class="planet7">
+        <h3>
+          NEPTUNE
+        </h3>
+        <img src="neptune.png" alt="neptune">
+        <br><span id="np">Your weight is:</span>
+      </div>
+
+      <div id = "check8" class="planet8">
+        <h3>
+          PLUTO
+        </h3>
+        <img src="pluto.png" alt="pluto">
+        <br><span id="p">Your weight is:</span>
+      </div>
+
+      <div id = "check9" class="planet9">
+        <h3>
+          SATURN
+        </h3>
+        <img src="saturn.png" alt="saturn">
+        <br><span id="s">Your weight is:</span>
+      </div>
+
+      <div id = "check10" class="planet10">
+        <h3>
+          URANUS
+        </h3>
+        <img src="uranus.png" alt="uranus">
+        <br><span id="u">Your weight is:</span>
+      </div> 
+    </div>
+
+
+
+
+
+    
+      
+    
+   <script src="solar.js"></script>
+</body>
+</html>

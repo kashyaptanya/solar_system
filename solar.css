@@ -1,0 +1,86 @@
+img{
+    height: 20%;
+    width: 20%;
+}
+#check2{
+    display: none;
+} 
+
+#check1{
+    display: none;
+}
+
+#check3{
+  display: none;
+}
+#check4{
+  display: none;
+}
+#check2{
+    display: none;
+}
+
+#check5{
+  display: none;
+}
+#check6{
+  display: none;
+}
+#check7{
+    display: none;
+}
+
+#check8{
+  display: none;
+}
+#check9{
+  display: none;
+}
+#check10{
+  display: none;
+}
+
+    body
+     { background-image:url('galaxy.gif'); background-repeat:repeat; 
+    color: aliceblue;
+    text-align: center;
+    } 
+    input{
+        height: 28px;
+        width: 15%;
+        padding-left: 10px;
+        border-radius: 10px;
+      
+       
+        border: 1px solid #BFBFBF;
+        background-color: white;
+        box-shadow: 4px 7px 8px #aaaaaa;
+    }
+    select{
+        height: 35px;
+        width: 15%;
+        border-radius: 15px;
+        padding-left: 10px;
+    
+        
+        border: 1px solid #BFBFBF;
+        background-color: white;
+        box-shadow: 4px 7px 8px #aaaaaa;
+
+    }
+    button{
+        height: 35px;
+        width: 15%;
+        border-radius: 15px;
+        
+        border: 1px solid #BFBFBF;
+        background-color: white;
+        box-shadow: 4px 7px 8px #aaaaaa;
+    }
+   .planets {
+
+     font-size: 25px;
+   }
+   .planet10{
+    display: flex;
+   }
